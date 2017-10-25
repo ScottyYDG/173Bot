@@ -1,13 +1,13 @@
 {
   "name": "173Bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "The offical bot of the 173rd Airborne Brigade MilSim.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jocular Soul & SCOTTY YDG",
   "license": "ISC",
   "dependencies": {
     "discord.js": "github:hydrabolt/discord.js"
