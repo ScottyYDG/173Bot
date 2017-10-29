@@ -10,6 +10,7 @@ client.commands = new Discord.Collection();
 
 client.commands.set('ping', require('./commands/ping.js'));
 client.commands.set('serverinfo', require('./commands/serverinfo.js'));
+client.commands.set('twitter', require('./commands/twitter.js'));
 
 client.on('message', message => require('./events/message.js')(client, message));
 client.on('guildCreate', guild => require('./events/guildCreate.js')(client, guild));
