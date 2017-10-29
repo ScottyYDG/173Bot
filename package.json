@@ -1,13 +1,13 @@
 {
-  "name": "173bot",
+  "name": "knifehand",
   "version": "1.0.0",
-  "description": "The official bot of the 173rd Airborne Brigade Milsim.",
+  "description": "Administration bot for the 173rd OSUT server.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Jocular Soul & Scotty YDG",
+  "author": "Jocular Soul",
   "license": "ISC",
   "dependencies": {
     "discord.js": "github:hydrabolt/discord.js"
