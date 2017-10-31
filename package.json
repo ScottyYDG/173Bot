@@ -4,8 +4,9 @@
   "description": "Administration bot for the 173rd OSUT server.",
   "main": "index.js",
   "engines": {
-    "node": "8.6.0"
-  }, 
+    "node": "8.6.0",
+    "npm": "5.4.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +14,9 @@
   "author": "Jocular Soul",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "github:hydrabolt/discord.js"
+    "discord.js": "github:hydrabolt/discord.js",
+    "express": "4.16.2",
+    "foobar": "^1.1.0"
   },
   "devDependencies": {
     "eslint": "^4.9.0",
